@@ -1,5 +1,5 @@
-@import 
-"variables",
-"extends",
-"functions",
-"mixins";
+@import "global-variables";
+@import "mixins";
+@import "extends";
+@import "functions";
+@import "placeholder";

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="41" viewBox="0 0 154 41">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="154" height="41" fill="#333" fill-opacity=".4" rx="3"/>
+        <path fill="#FFF" d="M46 21.5v6a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-6h-6a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h6v-6a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v6h6a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-6z"/>
+        <text fill="#FFF" font-family="Helvetica-Bold, Helvetica" font-size="16" font-weight="bold" letter-spacing=".2">
+            <tspan x="64" y="26">My Lis</tspan> <tspan x="114.989" y="26">t</tspan>
+        </text>
+    </g>
+</svg>

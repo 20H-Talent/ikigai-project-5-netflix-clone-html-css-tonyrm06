@@ -1,0 +1,113 @@
+.top-nav {
+    @include flexy($dir: row);
+    &:hover {
+        background-color: #141414;
+    }
+    // position: fixed;
+    // top: 0;
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            opacity: 0.5;
+            @extend %transition;
+        }
+    }
+    .home {
+        font-weight: bold;
+    }
+    #nav2{
+        margin: 2px 16px 1px -1px;
+    }
+    #nav3{
+        margin: 2px 13px 2px -3px;
+    }
+    #nav4 {
+        margin: 2px 13px 1px 1px;
+    }
+
+    nav {
+        @include flexy($dir: row);
+        ul {
+            margin-left: 35px;
+            align-self: center;
+            margin-top: 13px;
+            @include flexy($dir: row, $align: center);
+        }
+        li {
+            margin-right: 15.8px;
+            color: $text-color;
+            font-family: Helvetica;
+            font-size: 10px;
+            letter-spacing: 0.5px;
+            line-height: 13px;
+        }
+    }
+}
+
+.logo {
+    margin: 16px 0 0 44px;
+    height: 18px;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    right: 59px;
+    top: 17px;
+}
+
+a.icon {
+    z-index: 999;
+    padding: 11px;
+    position: absolute;
+    right: 153px;
+    bottom: 1px;
+    img{
+        width: 16px;
+    }
+}
+
+.input-field {
+    height: 34px;
+    width: 268px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 1px solid #DDDDDD;
+    background-color: #1D1C1D;
+}
+
+input[type="text"] {
+    direction: rtl;
+    background: transparent;
+    border: none;
+}
+
+::placeholder {
+    width: 139px;
+    color: #7F7F7F;
+    font-family: Helvetica;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 18px;
+}
+
+
+
+::-webkit-input-placeholder {
+    text-align: center;
+    text-indent: 100%;
+}
+
+
+
+::-moz-placeholder {
+    text-align: right;
+}
+
+:-moz-placeholder {
+    text-align: right;
+}

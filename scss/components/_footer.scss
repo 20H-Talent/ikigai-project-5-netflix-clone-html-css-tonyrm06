@@ -1,0 +1,57 @@
+footer {
+    height: 246px;
+    width: 849px;
+    margin-left: 229px;
+    margin-top: 112px;
+    margin-bottom: 35px;
+    a:hover {
+        text-decoration: underline;
+    }
+    img:not(#tweet) {
+        margin-right: 26px;
+    }
+    #tweet {
+        margin-right: 18px;
+    }
+    #copyright {
+        margin-top: 61px;
+        margin-left: 0;
+        height: 17px;
+        width: 116px;
+        color: #7F7F7F;
+        font-family: Helvetica;
+        font-size: 14px;
+        letter-spacing: 0.11px;
+        line-height: 17px;
+    }
+    li {
+        color: #7F7F7F;
+        font-family: Helvetica;
+        font-size: 13px;
+        letter-spacing: 0.25px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .social:hover {
+        transform: scale(1.2)
+    }
+    .contact {
+        @include flexy($dir: row);
+    }
+    .footer-column1 {
+        @include flexy($dir: row, $just: space-between);
+    }
+    .contact {
+        @include flexy($dir: row);
+    }
+    .footer-column3 {
+        padding-right: 54px;
+        margin-left: 33px;
+    }
+    .footer-column2 {
+        margin-left: 16px;
+    }
+    .footer-column4 {
+        margin-left: 5px;
+    }
+}

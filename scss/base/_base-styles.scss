@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+    font-family: $font-family;
+    background-color: $background-body;
+}
+
+html.debug {
+	background: transparent url(/mockups/00-home-with-hovers.jpg) no-repeat top left;
+    background-size: 100%;
+    width: 1440px;
+   height: 2572px;
+    body {
+        opacity: 0.7;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    a {
+        @include flexy();
+    }
+}
+
+p {
+    margin: 3px 0 0 59px;
+    height: 75px;
+    width: 485px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+}
+
+h3 {
+    margin: -17px 0 0 46px;
+    height: 26px;
+    width: 225px;
+    font-size: 16.2px;
+    font-weight: bold;
+    letter-spacing: 0.24px;
+    line-height: 26px;
+}
+
+h1 {
+    margin-left: 58px;
+    margin-top: 62px;
+    margin-bottom: 8px;
+    height: 24px;
+    width: 203px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.16px;
+    line-height: 24px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-left: 58px;
+    margin-top: 0;
+    height: 24px;
+    width: 185px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.16px;
+    line-height: 24px;
+}
+
+
+
+progress[value] {
+    @extend %appearence;
+    height: 4px;
+    width: 132px;
+    margin-left: 44px;
+    background-color: red;
+}
+
+progress::-webkit-progress-value {
+    @extend %appearence;
+    color: red;
+    background-color: red;
+}
+
+progress[value="0"] {
+    visibility: hidden;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    right: 59px;
+    top: 17px;
+}
+
+.icon {
+    padding: 10px;
+    position: absolute;
+    right: 230px;
+    bottom: -4px;
+}
+
+.input-field {
+    height: 34px;
+    width: 268px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 1px solid #DDDDDD;
+    background-color: #1D1C1D;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+}
+
+::placeholder {
+    width: 139px;
+    color: #7F7F7F;
+    font-family: Helvetica;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 18px;
+}
+
+
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+
+
+::-moz-placeholder {
+    text-align: right;
+}
+
+
+:-moz-placeholder {
+    text-align: right;
+}
+

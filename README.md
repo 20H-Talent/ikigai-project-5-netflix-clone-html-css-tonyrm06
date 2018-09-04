@@ -148,9 +148,9 @@ Be consistent in the decisions you take.
 ## Author
 
 With ❤️ from your new teacher [Antonio Sejas](https://sejas.es) .
--  [![Twitter](https://raw.githubusercontent.com/adamfairhead/webicons/master/webicons/webicon-twitter-s.png) @antoniosejas](http://bit.ly/2A1yeOT)
--  [![Medium](https://raw.githubusercontent.com/adamfairhead/webicons/master/webicons/webicon-medium-s.png) @sejas](http://bit.ly/2NyXDBw)
--  [![Linkedin](https://raw.githubusercontent.com/adamfairhead/webicons/master/webicons/webicon-linkedin-s.png) antoniosejas](http://bit.ly/2LghNDK)
+-  [![Twitter](https://raw.githubusercontent.com/adamfairhead/webicon/master/webicon/webicon-twitter-s.png) @antoniosejas](http://bit.ly/2A1yeOT)
+-  [![Medium](https://raw.githubusercontent.com/adamfairhead/webicon/master/webicon/webicon-medium-s.png) @sejas](http://bit.ly/2NyXDBw)
+-  [![Linkedin](https://raw.githubusercontent.com/adamfairhead/webicon/master/webicon/webicon-linkedin-s.png) antoniosejas](http://bit.ly/2LghNDK)
 
 ## Contribution
 Feel free to make a pull request to fix any typo or mistake.

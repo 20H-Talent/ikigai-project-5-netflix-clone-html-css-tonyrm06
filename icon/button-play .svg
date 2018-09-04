@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="41" viewBox="0 0 129 41">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="129" height="41" fill="#333" fill-opacity=".4" rx="3"/>
+        <path fill="#FFF" d="M35.5 24.79V11.21a1 1 0 0 1 1.49-.87l12.06 6.789a1 1 0 0 1 0 1.742l-12.06 6.79a1 1 0 0 1-1.49-.872z"/>
+        <text fill="#FFF" font-family="Helvetica" font-size="16" letter-spacing=".2">
+            <tspan x="61" y="25">Pla</tspan> <tspan x="84.725" y="25">y</tspan>
+        </text>
+    </g>
+</svg>
